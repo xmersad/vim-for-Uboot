@@ -125,7 +125,7 @@ Copy all `.c`, `.h`, `Makefile`, and `Kconfig` files into `cmd/` inside the U-Bo
 
 ```bash
 cp cmd_ved.h cmd_ved.c cmd_ved_fs.c cmd_ved_render.c cmd_ved_edit.c \
-   Makefile Kconfig  /path/to/u-boot/cmd/
+     /path/to/u-boot/cmd/
 ```
 
 Add the build rule to `cmd/Makefile` (one line):
