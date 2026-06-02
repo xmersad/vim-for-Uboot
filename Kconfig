@@ -1,0 +1,7 @@
+config CMD_VED
+	bool "ved - vim-like file editor"
+	depends on FS_FAT || FS_EXT4
+	help
+	  A minimal vim-like text editor that runs directly in U-Boot.
+	  Supports FAT and ext4 filesystems via U-Boot's FS API.
+	  Use: ved <iftype> <dev:part> <filename> [fstype]
